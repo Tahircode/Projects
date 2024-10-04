@@ -1,0 +1,37 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    text-align: center;
+    background-color: #011F3F;
+    
+}
+#player-x{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 3rem;
+    margin:  5%;
+    color: #FEF2BF;
+}
+.container {
+    width: 50%;
+    margin: auto;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+  
+  }
+  .box-grid{
+    display:grid;
+    grid-template-rows:repeat(3,100px);
+    grid-template-columns:repeat(3,100px);
+
+    /* background-color: aliceblue; */
+    gap:2px;
+  }
+  .box{
+    background-color: aliceblue;
+    border:1px black;
+  }
+
+
