@@ -32,6 +32,13 @@ body{
   .box{
     background-color: aliceblue;
     border:1px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
   }
 
+  #r{
+    color:white
+  }
 
