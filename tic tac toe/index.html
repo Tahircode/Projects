@@ -11,21 +11,38 @@
     <h1 id="player-x">Player-1</h1>
     <div class="container">
         <div class="box-grid">
-            <div class="box"></div>
-            <div class="box"></div>
-            <div class="box"></div>
-            <div class="box"></div>
-            <div class="box"></div>
-            <div class="box"></div>
-            <div class="box"></div>
-            <div class="box"></div>
-            <div class="box"></div>
+            <div class="box" onclick="showfn(1,6)" id="1"></div>
+            <div class="box" onclick="showfn(2,1)" id="2"></div>
+            <div class="box" onclick="showfn(3,8)" id="3"></div>
+            <div class="box" onclick="showfn(4,7)" id="4"></div>
+            <div class="box" onclick="showfn(5,5)" id="5"></div>
+            <div class="box" onclick="showfn(6,3)" id="6"></div>
+            <div class="box" onclick="showfn(7,2)" id="7"></div>
+            <div class="box" onclick="showfn(8,9)" id="8"></div>
+            <div class="box" onclick="showfn(9,4)" id="9"></div>
         </div>
     </div>
 
+    <div id="r">winner</div>
 
-
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="game.js" charset="utf-8"></script>
+  <!-- <script > 
+    let count=0;
+function showfn(id) {
+let div2= document.getElementById(id);
+    if (count<9){
+    let c=div2.innerText;
+    if(c==""){
+if(count%2==0) {
+    div2.innerText="0";
+}
+else{
+    div2.innerHTML="1";
+}
+count++;
+}
+}
+}
+  </script> -->
+  <script src="index.js" charset="utf-8"></script>
 </body>
 </html>
